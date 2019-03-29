@@ -8,12 +8,14 @@ import { IgxNavigationDrawerModule, IgxNavbarModule, IgxLayoutModule, IgxRippleM
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { PeopleListComponent } from './people/people-list/people-list.component';
+import { InitialsPipe } from './pipes/initials.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    PeopleListComponent
+    PeopleListComponent,
+    InitialsPipe
 ],
 imports: [
     FormsModule,
