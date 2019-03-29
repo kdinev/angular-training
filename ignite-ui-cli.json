@@ -1,19 +1,20 @@
 {
-	"version": "4.1.3",
-	"project": {
-		"defaultPort": 4200,
-		"framework": "angular",
-		"projectType": "igx-ts",
-		"projectTemplate": "side-nav",
-		"theme": "Default",
-		"themePath": "$(themePath)",
-		"isBundle": false,
-		"bundleFilePath": "",
-		"igniteuiSource": "",
-		"components": [],
-		"sourceFiles": [],
-		"isShowcase": false,
-		"version": ""
-	},
-	"build": {}
+    "version": "4.1.3",
+    "project": {
+        "defaultPort": 4200,
+        "framework": "angular",
+        "projectType": "igx-ts",
+        "projectTemplate": "side-nav",
+        "theme": "Default",
+        "themePath": "$(themePath)",
+        "isBundle": false,
+        "bundleFilePath": "",
+        "igniteuiSource": "",
+        "components": [],
+        "sourceFiles": [],
+        "isShowcase": false,
+        "version": ""
+    },
+    "build": {},
+    "packagesInstalled": true
 }
