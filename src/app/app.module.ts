@@ -3,15 +3,17 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { IgxNavigationDrawerModule, IgxNavbarModule, IgxLayoutModule, IgxRippleModule } from 'igniteui-angular';
+import { IgxNavigationDrawerModule, IgxNavbarModule, IgxLayoutModule, IgxRippleModule, IgxCardModule, IgxAvatarModule } from 'igniteui-angular';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import { PeopleListComponent } from './people/people-list/people-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    PeopleListComponent
 ],
 imports: [
     FormsModule,
@@ -21,7 +23,9 @@ imports: [
     IgxNavigationDrawerModule,
     IgxNavbarModule,
     IgxLayoutModule,
-    IgxRippleModule
+    IgxRippleModule,
+    IgxCardModule,
+    IgxAvatarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
